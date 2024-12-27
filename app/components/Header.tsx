@@ -5,23 +5,22 @@ const Header = () => {
     <header
       style={{
         display: "flex",
-        justifyContent: "space-between", // Add space between links
+        justifyContent: "center", // Center the nav content
         alignItems: "center",
         padding: "1rem",
-        backgroundColor: "black",
         position: "fixed",
         top: 0,
         width: "100%",
         zIndex: 1000,
-        flexWrap: "wrap", // Allow wrapping for small screens
       }}
     >
       <nav
         style={{
           display: "flex",
-          flexDirection: "row",
+          flexWrap: "wrap", // Allow wrapping for small screens
+          justifyContent: "center", // Center links
           gap: "1rem", // Space between links
-          flexWrap: "wrap", // Make links wrap on smaller screens
+          padding: "0.5rem",
         }}
       >
         <Link href="/" legacyBehavior>
@@ -29,7 +28,7 @@ const Header = () => {
             style={{
               textDecoration: "none",
               fontFamily: "Batman Forever, sans-serif",
-              fontSize: "1rem",
+              fontSize: "1.5rem", // Adjust font size for mobile
               color: "gold",
             }}
           >
@@ -41,7 +40,7 @@ const Header = () => {
             style={{
               textDecoration: "none",
               fontFamily: "Batman Forever, sans-serif",
-              fontSize: "1rem",
+              fontSize: "1.5rem", // Adjust font size for mobile
               color: "gold",
             }}
           >
@@ -53,7 +52,7 @@ const Header = () => {
             style={{
               textDecoration: "none",
               fontFamily: "Batman Forever, sans-serif",
-              fontSize: "1rem",
+              fontSize: "1.5rem", // Adjust font size for mobile
               color: "gold",
             }}
           >
@@ -65,7 +64,7 @@ const Header = () => {
             style={{
               textDecoration: "none",
               fontFamily: "Batman Forever, sans-serif",
-              fontSize: "1rem",
+              fontSize: "1.5rem", // Adjust font size for mobile
               color: "gold",
             }}
           >
