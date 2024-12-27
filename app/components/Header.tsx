@@ -5,70 +5,74 @@ const Header = () => {
     <header
       style={{
         display: "flex",
-        justifyContent: "space-evenly", // Space links evenly across the bar
+        justifyContent: "space-between", // Add space between links
         alignItems: "center",
-        padding: "1rem 2rem",
-        position: "fixed", // Makes the header stick to the top
+        padding: "1rem",
+        backgroundColor: "black",
+        position: "fixed",
         top: 0,
         width: "100%",
-        zIndex: 1000, // Ensure it stays above other elements
-        boxShadow: "0 2px 5px rgba(0, 0, 0, 0.5)", // Add subtle shadow for style
+        zIndex: 1000,
+        flexWrap: "wrap", // Allow wrapping for small screens
       }}
     >
-      <Link href="/" legacyBehavior>
-        <a
-          style={{
-            textDecoration: "none",
-            fontFamily: "'Batman Forever', Arial, sans-serif", // Added fallback fonts
-            fontSize: "1.5rem",
-            color: "gold", // Gold text color
-            transition: "color 0.3s", // Smooth hover effect
-          }}
-        >
-          Home
-        </a>
-      </Link>
-
-      <Link href="/whitepaper" legacyBehavior>
-        <a
-          style={{
-            textDecoration: "none",
-            fontFamily: "'Batman Forever', Arial, sans-serif", // Added fallback fonts
-            fontSize: "1.5rem",
-            color: "gold",
-            transition: "color 0.3s",
-          }}
-        >
-          Whitepaper
-        </a>
-      </Link>
-
-      <Link href="/socials" legacyBehavior>
-        <a
-          style={{
-            textDecoration: "none",
-            fontFamily: "'Batman Forever', Arial, sans-serif", // Added fallback fonts
-            fontSize: "1.5rem",
-            color: "gold",
-            transition: "color 0.3s",
-          }}
-        >
-          Socials
-        </a>
-      </Link>
-
-      <Link href="/how-to-buy" legacyBehavior>
-        <a
-          style={{
-            textDecoration: "none",
-            fontFamily: "Batman Forever, sans-serif",
-            fontSize: "1.5rem",
-            color: "gold", // Gold text color
-          }}
-        >
-          How to Buy
-        </a>
-      </Link>
+      <nav
+        style={{
+          display: "flex",
+          flexDirection: "row",
+          gap: "1rem", // Space between links
+          flexWrap: "wrap", // Make links wrap on smaller screens
+        }}
+      >
+        <Link href="/" legacyBehavior>
+          <a
+            style={{
+              textDecoration: "none",
+              fontFamily: "Batman Forever, sans-serif",
+              fontSize: "1rem",
+              color: "gold",
+            }}
+          >
+            Home
+          </a>
+        </Link>
+        <Link href="/whitepaper" legacyBehavior>
+          <a
+            style={{
+              textDecoration: "none",
+              fontFamily: "Batman Forever, sans-serif",
+              fontSize: "1rem",
+              color: "gold",
+            }}
+          >
+            Whitepaper
+          </a>
+        </Link>
+        <Link href="/socials" legacyBehavior>
+          <a
+            style={{
+              textDecoration: "none",
+              fontFamily: "Batman Forever, sans-serif",
+              fontSize: "1rem",
+              color: "gold",
+            }}
+          >
+            Socials
+          </a>
+        </Link>
+        <Link href="/how-to-buy" legacyBehavior>
+          <a
+            style={{
+              textDecoration: "none",
+              fontFamily: "Batman Forever, sans-serif",
+              fontSize: "1rem",
+              color: "gold",
+            }}
+          >
+            How to Buy
+          </a>
+        </Link>
+      </nav>
     </header>
   );
 };

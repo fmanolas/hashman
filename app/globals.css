@@ -1337,3 +1337,14 @@ body:active .batman .head {
 	right: 20vmin;
 	top: -3vmin;
 }
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column; /* Stack links vertically */
+    align-items: flex-start;
+  }
+
+  nav a {
+    font-size: 0.9rem; /* Reduce font size on smaller screens */
+  }
+}
