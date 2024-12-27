@@ -72,10 +72,10 @@ const Whitepaper = () => {
         >
           HASHMAN is a community-driven initiative inspired by the legendary
           caped crusader, reimagined to serve and protect the Hedera ecosystem.
-          With his iconic "H / #" logo symbolizing Hedera Hashgraph, Hashman’s
-          mission is to foster growth, strengthen community bonds, safeguard the
-          ecosystem from malicious actors, and drive innovation through
-          impactful initiatives. This white paper outlines the vision,
+          With his iconic &quot;H / #&quot; logo symbolizing Hedera Hashgraph,
+          Hashman’s mission is to foster growth, strengthen community bonds,
+          safeguard the ecosystem from malicious actors, and drive innovation
+          through impactful initiatives. This white paper outlines the vision,
           objectives, and roadmap for HASHMAN’s role in the Hedera ecosystem.
         </p>
 

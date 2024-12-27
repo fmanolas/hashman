@@ -109,7 +109,7 @@ const HowToBuy = () => {
           </p>
           <ul>
             <li>Open the HashPack app and connect your wallet.</li>
-            <li>Navigate to the "Swap" section.</li>
+            <li>Navigate to the &quot;Swap&quot; section.</li>
             <li>
               Select $HBAR as the token to swap and search for Hashman tokens
               using the token ID below.
@@ -178,7 +178,7 @@ const HowToBuy = () => {
               marginBottom: "1rem",
             }}
           >
-            Hashman's Token ID
+            Hashman&apos;s Token ID
           </h2>
           <p>
             Use the following token ID to find and purchase Hashman tokens in
