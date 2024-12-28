@@ -245,7 +245,12 @@ body:active .light {
 #hatman-logo .horizontal-bar.bottom {
   bottom: 25%; /* Adjusted position for better spacing */
 }
-
+@media (max-width: 768px) {
+	#hatman-logo {
+	  width: 50px; /* Scale down for mobile */
+	  height: 50px;
+	}
+  }
 
 #left-white {
 	background: var(--bg);
